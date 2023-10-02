@@ -1,8 +1,3 @@
 #!/bin/bash
-import os
-import py_compile
-
-py_file = os.environ.get('PYFILE')
-if py_file:
-    py_compile.compile(py_file, cfile=py_file + 'c')
+python3 -m compileall -b $PYFILE
 
