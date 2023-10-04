@@ -8,4 +8,4 @@ for num in range(1, 101):
     elif num % 5 == 0 and num % 3 == 0:
         print("FizzBuzz", end=" ")
     else:
-        print(f"{num:d}")
+        print("{}".format(num), end=" ")
