@@ -8,4 +8,4 @@ ef uniq_add(my_list=[]):
         if element not in new_list
         sum += element
         new_list.append(element)
-    return new_list
+    return sum
