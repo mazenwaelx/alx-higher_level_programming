@@ -3,7 +3,7 @@
 
 def multiply_by_2(a_dictionary):
 
-    new_list = {}
-    for key , value in a_dictionary.items():
-        new_list.update({key: (value * 2)})
-    return new_list
+    new_dict = {}
+    for key, value in a_dictionary.items():
+        new_dict.update({key: (value * 2)})
+    return new_dict
